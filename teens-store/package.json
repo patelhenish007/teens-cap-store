@@ -1,0 +1,8 @@
+{
+  "name": "teens-premium-cap-store",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev":"next dev","build":"next build","start":"next start","lint":"next lint","db:generate":"prisma generate","db:migrate":"prisma migrate dev","db:push":"prisma db push","test":"vitest run"},
+  "dependencies": {"@prisma/client":"^6.8.2","lucide-react":"^0.468.0","next":"^15.3.2","react":"^19.0.0","react-dom":"^19.0.0","zod":"^3.24.2"},
+  "devDependencies": {"@types/node":"^22.15.21","@types/react":"^19.0.10","@types/react-dom":"^19.0.4","prisma":"^6.8.2","typescript":"^5.8.3","vitest":"^3.1.3"}
+}
